@@ -1,1 +1,1 @@
-GifExpert: una pequeña aplicación practicando React.
+GifExpert: una pequeña aplicación para buscar Gif y practicar React.
