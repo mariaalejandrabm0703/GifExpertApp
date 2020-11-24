@@ -7,6 +7,7 @@ export const AddCategory = ({ setCategories }) => {
 
     const handleInputChange = ( e ) => {
         setInputValue( e.target.value );
+        
     }
 
     const handleSubmit = (e) => {
@@ -26,6 +27,7 @@ export const AddCategory = ({ setCategories }) => {
                 value={ inputValue }
                 onChange={ handleInputChange }
             />
+            <button type="submit" onClick={handleSubmit}>Add</button>
         </form>
     )
 }
